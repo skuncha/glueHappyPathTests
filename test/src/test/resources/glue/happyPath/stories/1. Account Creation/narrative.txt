@@ -1,0 +1,6 @@
+Recruiters login possibilities with valid and invalid credentials
+
+Narrative:
+In order to verify Account Mapping and Finance Account configurations upon successful CCIMail association with customer accounts
+As a Sales Representative
+I want to login to SalesforceGlue and able to create customer accounts and ensure CCIMail association
