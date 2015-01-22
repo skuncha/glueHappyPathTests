@@ -6,12 +6,10 @@ In order to verify Account Mapping and Finance Account configurations upon succe
 As a Sales Representative
 I want to login to SalesforceGlue and able to create customer accounts and ensure CCIMail association
 
-Meta:
-@author Srinivasa Kuncha
-@tag capability: Account Creattion
-
 Scenario: Create a Billing Agency Account
 Meta:
+@author Srinivasa Kuncha
+@tag capability: Agency Creattion
 @tags feature: Agency Account
 Given Sales rep is on the Salesfoce home page
 When Sales rep login to glue as Mail user by supplying [username] and [password]
@@ -38,10 +36,12 @@ And Mail user verify Finance Account
 
 Examples:
 |username											|password			|searchAccountName	|
-|srinivasa.kuncha@mailnewspapers.co.uk.prodmirror	|glue1234			|Test123		|
+|srinivasa.kuncha@mailnewspapers.co.uk.prodmirror	|glue1234			|XYZ123				|
 
 Scenario: Create a Booking Agency Account
 Meta:
+@author Srinivasa Kuncha
+@tag capability: Agency Creattion
 @tags feature: Agency Account
 Given Sales rep is on the Salesfoce home page
 When Sales rep login to glue as Mail user by supplying [username] and [password]
@@ -66,10 +66,12 @@ Then Mail user verify Account Mapping
 
 Examples:
 |username											|password			|searchAccountName	|
-|srinivasa.kuncha@mailnewspapers.co.uk.prodmirror	|glue1234			|Test123		|
+|srinivasa.kuncha@mailnewspapers.co.uk.prodmirror	|glue1234			|XYZ123				|
 
 Scenario: Link Billing account to Booking 
 Meta:
+@author Srinivasa Kuncha
+@tag capability: Agency Mapping
 @tags feature: Association
 Given Sales rep is on the Salesfoce home page
 When Sales rep login to glue as Mail user by supplying [username] and [password]
@@ -94,7 +96,7 @@ Then Mail user should be able to make Billing relationship successfully
 
 Examples:
 |username											|password			|searchAccountName	|accountBName				|role	|
-|srinivasa.kuncha@mailnewspapers.co.uk.prodmirror	|glue1234			|Test123			|10694AUTOBILLING			|Billing|
+|srinivasa.kuncha@mailnewspapers.co.uk.prodmirror	|glue1234			|XYZ123				|Essence					|Billing|
 
 Scenario: Link Booking account to Client
 Meta:
@@ -122,5 +124,5 @@ And Mail user supply values for [accountBName] and [role] and submit the form
 Then Mail user should be able to make Billing relationship successfully
 
 Examples:
-|username											|password			|searchAccountName	|accountBName				|role		|
-|srinivasa.kuncha@mailnewspapers.co.uk.prodmirror	|glue1234			|Test123			|10889AUTOBOKKING			|Booking	|
+|username											|password			|searchAccountName	|accountBName						|role		|
+|srinivasa.kuncha@mailnewspapers.co.uk.prodmirror	|glue1234			|XYZ123				|Goodstuff Communications			|Booking	|

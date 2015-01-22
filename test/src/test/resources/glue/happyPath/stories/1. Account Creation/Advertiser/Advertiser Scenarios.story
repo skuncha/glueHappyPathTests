@@ -26,7 +26,7 @@ When Mail user fill in Mandatory fields for Advertiser Account:
 |ElementName	|ElementValue				|
 |salutation		|Mr.						|
 |firstname		|Srinivasa					|
-|accountName	|P-Advertiser				|
+|accountName	|Charity Advertiser			|
 |phoneNumber	|020 000000000				|
 |billingStreet	|DMG Street					|
 |postCode		|BT60JH						|
@@ -60,7 +60,7 @@ When Mail user fill in Mandatory fields for Advertiser Account:
 |ElementName	|ElementValue				|
 |salutation		|Mr.						|
 |firstname		|Srinivasa					|
-|accountName	|P-Advertiser				|
+|accountName	|Client Advertiser			|
 |phoneNumber	|020 000000000				|
 |billingStreet	|DMG Street					|
 |postCode		|BT60JH						|
@@ -94,8 +94,8 @@ When Mail user fill in Mandatory fields for Advertiser Account:
 |ElementName	|ElementValue				|
 |salutation		|Mr.						|
 |firstname		|Srinivasa					|
-|accountName	|P-Advertiser				|
-|parentaccount  |Client - 1412930725346		|
+|accountName	|Brand Advertiser			|
+|parentaccount  |Client - 1419321795842		|
 |phoneNumber	|020 000000000				|
 |billingStreet	|DMG Street					|
 |postCode		|BT60JH						|
@@ -113,9 +113,7 @@ Examples:
 |username											|password			|searchAccountName	|mainCategory	|subCategory			|minorCategory				|
 |srinivasa.kuncha@mailnewspapers.co.uk.prodmirror	|glue1234			|xyz123				|30 - RETAIL	|30.04 - RETAIL GENERAL |30.04.00 - RETAIL GENERAL	|
 
-
 Scenario: Create a Direct Advertiser Account
-
 Meta:
 @tags feature: Advertiser Account
 Given Sales rep is on the Salesfoce home page
@@ -131,7 +129,7 @@ When Mail user fill in Mandatory fields for Advertiser Account:
 |ElementName	|ElementValue				|
 |salutation		|Mr.						|
 |firstname		|Srinivasa					|
-|accountName	|P-Advertiser				|
+|accountName	|DA Advertiser				|
 |phoneNumber	|020 000000000				|
 |billingStreet	|DMG Street					|
 |postCode		|BT60JH						|
@@ -165,7 +163,7 @@ When Mail user fill in Mandatory fields for Advertiser Account:
 |ElementName	|ElementValue				|
 |salutation		|Mr.						|
 |firstname		|Srinivasa					|
-|accountName	|P-Advertiser				|
+|accountName	|DMGT-Advertiser			|
 |phoneNumber	|020 000000000				|
 |billingStreet	|DMG Street					|
 |postCode		|BT60JH						|
@@ -199,7 +197,7 @@ When Mail user fill in Mandatory fields for Advertiser Account:
 |ElementName	|ElementValue				|
 |salutation		|Mr.						|
 |firstname		|Srinivasa					|
-|accountName	|P-Advertiser				|
+|accountName	|Holding Advertiser			|
 |phoneNumber	|020 000000000				|
 |billingStreet	|DMG Street					|
 |postCode		|BT60JH						|
@@ -229,7 +227,7 @@ When Mail user fill in Mandatory fields for Advertiser Account:
 |ElementName	|ElementValue				|
 |salutation		|Mr.						|
 |firstname		|Srinivasa					|
-|accountName	|P-Advertiser				|
+|accountName	|Private Advertiser				|
 |phoneNumber	|020 000000000				|
 |billingStreet	|DMG Street					|
 |postCode		|BT60JH						|
