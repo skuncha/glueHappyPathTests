@@ -147,15 +147,16 @@ public class SalesforceGlueAccountPage extends PageObject {
     
     public void newAccountChild(String keyword) {
     	
-    	waitABit(1000);
+    	waitABit(4000);
     	searchCustomerName().type(keyword);
     	customerSearchButton.click();
-    	waitABit(3000);
+    	waitABit(2000);
     }
     
     public void newAccountButtonFromSearchResultsSection() {
     	waitABit(2000);
     	newAccountButtonChild().click();
+    	waitABit(3000);
     }
     
 /**************************************************************CSVFile*****************************************************/
@@ -289,7 +290,8 @@ public class SalesforceGlueAccountPage extends PageObject {
     	try {
 
     		waitABit(1000);
-    	accountName().type(s + adviserMandValues.get("accountName"));
+    	accountName().type(s + " " +adviserMandValues.get("accountName"));
+//    	accountName().type(adviserMandValues.get("accountName"));
     		waitABit(1000);
     	phoneNumber().type(adviserMandValues.get("phoneNumber"));
     		waitABit(1000);
@@ -317,7 +319,7 @@ public class SalesforceGlueAccountPage extends PageObject {
     	CCICustomerMail().click();
     		waitABit(5000);
 		getDriver().switchTo().alert().accept();  
-			waitABit(12000);
+			waitFor(24).seconds();
 		getDriver().switchTo().alert().accept(); 
      }
 
@@ -485,6 +487,7 @@ public class SalesforceGlueAccountPage extends PageObject {
     
     public void continueButton() {
     	continueButt().click();
+    	 waitABit(3000);
     }
     
      /* private Converter<WebElement, String> toStrings() {

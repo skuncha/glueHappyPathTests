@@ -42,7 +42,7 @@ Then Mail user verify Account Mapping
 
 Examples:
 |username											|password			|searchAccountName	|mainCategory	|subCategory			|minorCategory				|
-|srinivasa.kuncha@mailnewspapers.co.uk.prodmirror	|glue1234			|xyz123				|30 - RETAIL	|30.04 - RETAIL GENERAL |30.04.00 - RETAIL GENERAL	|
+|srinivasa.kuncha@mailnewspapers.co.uk.prodmirror	|test1234			|xyz123				|30 - RETAIL	|30.04 - RETAIL GENERAL |30.04.00 - RETAIL GENERAL	|
 
 Scenario: Create a Client Advertiser Account
 Meta:
@@ -76,7 +76,7 @@ Then Mail user verify Account Mapping
 
 Examples:
 |username									        |password			|searchAccountName	|mainCategory	|subCategory			|minorCategory				|
-|srinivasa.kuncha@mailnewspapers.co.uk.prodmirror	|glue1234			|xyz123				|30 - RETAIL	|30.04 - RETAIL GENERAL |30.04.00 - RETAIL GENERAL	|
+|srinivasa.kuncha@mailnewspapers.co.uk.prodmirror	|test1234			|xyz123				|30 - RETAIL	|30.04 - RETAIL GENERAL |30.04.00 - RETAIL GENERAL	|
 
 Scenario: Create a Brand Advertiser Account
 Meta:
@@ -111,7 +111,7 @@ Then Mail user verify Account Mapping
 
 Examples:
 |username											|password			|searchAccountName	|mainCategory	|subCategory			|minorCategory				|
-|srinivasa.kuncha@mailnewspapers.co.uk.prodmirror	|glue1234			|xyz123				|30 - RETAIL	|30.04 - RETAIL GENERAL |30.04.00 - RETAIL GENERAL	|
+|srinivasa.kuncha@mailnewspapers.co.uk.prodmirror	|test1234			|xyz123				|30 - RETAIL	|30.04 - RETAIL GENERAL |30.04.00 - RETAIL GENERAL	|
 
 Scenario: Create a Direct Advertiser Account
 Meta:
@@ -145,7 +145,7 @@ Then Mail user verify Account Mapping
 
 Examples:
 |username											|password			|searchAccountName	|mainCategory	|subCategory			|minorCategory				|
-|srinivasa.kuncha@mailnewspapers.co.uk.prodmirror	|glue1234			|xyz123				|30 - RETAIL	|30.04 - RETAIL GENERAL |30.04.00 - RETAIL GENERAL	|
+|srinivasa.kuncha@mailnewspapers.co.uk.prodmirror	|test1234			|xyz123				|30 - RETAIL	|30.04 - RETAIL GENERAL |30.04.00 - RETAIL GENERAL	|
 
 Scenario: Create a DMGT Group Account
 Meta:
@@ -179,7 +179,7 @@ Then Mail user verify Account Mapping
 
 Examples:
 |username											|password			|searchAccountName	|mainCategory	|subCategory			|minorCategory				|
-|srinivasa.kuncha@mailnewspapers.co.uk.prodmirror	|glue1234			|xyz123				|30 - RETAIL	|30.04 - RETAIL GENERAL |30.04.00 - RETAIL GENERAL	|
+|srinivasa.kuncha@mailnewspapers.co.uk.prodmirror	|test1234			|xyz123				|30 - RETAIL	|30.04 - RETAIL GENERAL |30.04.00 - RETAIL GENERAL	|
 
 Scenario: Create a Holding Company Account
 Meta:
@@ -209,7 +209,7 @@ Then Mail user verify Account Mapping
 
 Examples:
 |username											|password			|searchAccountName	|
-|srinivasa.kuncha@mailnewspapers.co.uk.prodmirror	|glue1234			|xyz123				|
+|srinivasa.kuncha@mailnewspapers.co.uk.prodmirror	|test1234			|xyz123				|
 
 Scenario: Create a Private Advertiser Account
 Meta:
@@ -239,5 +239,5 @@ Then Mail user verify Account Mapping
 
 Examples:
 |username											|password			|searchAccountName	|
-|srinivasa.kuncha@mailnewspapers.co.uk.prodmirror	|glue1234			|xyz123				|
+|srinivasa.kuncha@mailnewspapers.co.uk.prodmirror	|test1234			|xyz123				|
 

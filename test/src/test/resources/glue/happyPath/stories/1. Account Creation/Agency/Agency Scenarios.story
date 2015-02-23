@@ -36,7 +36,7 @@ And Mail user verify Finance Account
 
 Examples:
 |username											|password			|searchAccountName	|
-|srinivasa.kuncha@mailnewspapers.co.uk.prodmirror	|glue1234			|XYZ123				|
+|srinivasa.kuncha@mailnewspapers.co.uk.prodmirror	|test1234			|XYZ123				|
 
 Scenario: Create a Booking Agency Account
 Meta:
@@ -66,7 +66,7 @@ Then Mail user verify Account Mapping
 
 Examples:
 |username											|password			|searchAccountName	|
-|srinivasa.kuncha@mailnewspapers.co.uk.prodmirror	|glue1234			|XYZ123				|
+|srinivasa.kuncha@mailnewspapers.co.uk.prodmirror	|test1234			|XYZ123				|
 
 Scenario: Link Billing account to Booking 
 Meta:
@@ -96,7 +96,7 @@ Then Mail user should be able to make Billing relationship successfully
 
 Examples:
 |username											|password			|searchAccountName	|accountBName				|role	|
-|srinivasa.kuncha@mailnewspapers.co.uk.prodmirror	|glue1234			|XYZ123				|Essence					|Billing|
+|srinivasa.kuncha@mailnewspapers.co.uk.prodmirror	|test1234			|XYZ123				|Essence					|Billing|
 
 Scenario: Link Booking account to Client
 Meta:
@@ -125,4 +125,4 @@ Then Mail user should be able to make Billing relationship successfully
 
 Examples:
 |username											|password			|searchAccountName	|accountBName						|role		|
-|srinivasa.kuncha@mailnewspapers.co.uk.prodmirror	|glue1234			|XYZ123				|Goodstuff Communications			|Booking	|
+|srinivasa.kuncha@mailnewspapers.co.uk.prodmirror	|test1234			|XYZ123				|Goodstuff Communications			|Booking	|
